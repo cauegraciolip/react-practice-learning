@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# React Lista de tarefas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./react-todo-list.png" alt="exemplo imagem">
 
-## Available Scripts
+> Projeto inicial de React, utilizado para aprender funcionalidades e conceitos para inicialização de um projeto React, de programação funcional e componentes. Esse projeto foi constuido a partir do vídeo do canal do Youtube Felipe Rocha.
 
-In the project directory, you can run:
+## Aprendizados do projeto
 
-### `npm start`
+- Como instalar React;
+- Inicializar servidor local para desenvolvimento;
+- Programação funcional com React;
+- Componenentes;
+- Instalar packages node no projeto.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Passo a passo para a construção do projeto.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Instalando <react-todo-list>
 
-### `npm test`
+Para instalar o <react-todo-list>, segui estas etapas:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npx install create-react-app <nome do diretório>
 
-### `npm run build`
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+-- Utilizado no projeto o pacote node "uuid". O pacote tem a funcionalidade de criar ID aleatórios para não precisar utilizar o Math.random();
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📫 Contribuindo para <nome_do_projeto>
 
-### `npm run eject`
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Para contribuir com <react-todo-list>, siga estas etapas:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Bifurque este repositório.
+2. Crie um branch: `git checkout -b <main>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<contributing react-todo-list>'`
+4. Envie para o branch original: `git push origin <react-todo-list>`
+5. Crie a solicitação de pull.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 📝 Licença
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
